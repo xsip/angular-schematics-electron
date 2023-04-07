@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "electron-schematics": {
+      "description": "A blank schematic.",
+      "factory": "./electron-schematics/index#electronSchematics"
+    }
+  }
+}
